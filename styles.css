@@ -1,0 +1,11 @@
+* {
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    
+}
+ 
+canvas {
+    border: solid 10px black;
+}
