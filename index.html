@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ping Pong</title>
-</head>
-<body>
-    <h1>Ping Pong Javascript</h1>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="titulo">Ping Pong Javascript</h1>
+
+    <div class="instrucciones">
+      <h2>"space" = star/pause</h2>
+    </div>
+
+    <div class="jugadores">
+      <div class="player1">
+        Player1 (W - S)
+        <div id="puntaje1">0</div>
+      </div>
+
+      <div class="player2">
+        Player2 (⬆ - ⬇)
+        <div id="puntaje2">0</div>
+      </div>
+    </div>
+
     <canvas id="canvas"></canvas>
-</body>
-<script src="main.js"></script>
+
+    <script src="main.js"></script>
+  </body>
 </html>
